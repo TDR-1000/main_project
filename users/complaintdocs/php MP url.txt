@@ -1,0 +1,2 @@
+hhttp://localhost/scheduler/admin/login.php
+http://localhost/scheduler/

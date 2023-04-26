@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body 
+{font-family: Arial, Helvetica, sans-serif}
+* {box-sizing: border-box;}
+
+.bg-img 
+{
+  /* The image used */
+  background-image: url("http://localhost/cms/img/c3.jfif");
+  height : 700px;
+
+ /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  width: 97%;
+
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 10px;
+  height:100%;
+  
+
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<!-- <h2>Navbar on Image</h2> -->
+<div class="bg-img">
+  <div class="container">
+    <div class="topnav">
+     
+      <a style = "font-size: 1000px"><a style = "color:red ;" href="index.html">Complaint Management</a>
+    </a>
+      <a href="http://localhost/cms/users/">User Login</a>
+      <a href="http://localhost/cms/users/registration.php">User Registration</a>
+      <a href="http://localhost/cms/admin/">Admin</a>
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
